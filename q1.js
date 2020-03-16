@@ -15,12 +15,13 @@ var compareNum= 3;
 function greaterThan(randomArr,randomNum){
 
     var counter =0;
-    console.log(counter);
+    // console.log(counter);
     for (var i=0 ; i<randomArr.length ;i++){
         if (randomArr[i] > randomNum){
              var counter = counter+1
         }
-        console.log(counter);
+        // console.log(counter);
+
     }
     return counter;
 
